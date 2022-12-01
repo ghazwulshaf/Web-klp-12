@@ -1,0 +1,46 @@
+@import url('/css/root.style.css');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar .navbar__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-inline-start: 0;
+}
+
+.navbar .navbar__list .list__item {
+    list-style-type: none;
+}
+
+.navbar .navbar__list .list__item .item__text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.navbar .navbar__list .list__item .item__text:hover {
+    color: var(--secondary);
+}
+
+.navbar .navbar__list .list__item:hover {
+    color: var(--secondary);
+}
+
+.navbar .navbar__list .list__item .active {
+    color: var(--secondary);
+}

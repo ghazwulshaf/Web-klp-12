@@ -1,17 +1,25 @@
 <nav class="navbar">
-    <div class="navbar__logo">
-        <img src="{{ asset('assets/img/coding.png') }}" alt="coding's logo" width="60px">
-    </div>
-    <div class="navbar__nav">
-        <ul class="nav__list">
-            <li class="list__item">Home</li>
-            <li class="list__item">About</li>
+    <div id="navbar__left" class="navbar__container">
+        <a href="#">
+            <img src="{{ asset('assets/img/coding.png') }}" alt="coding's logo" width="60px">
+        </a>
+        <ul class="navbar__list">
+            <li class="list__item">
+                <a href="#" class="item__text active">Home</a>
+            </li>
+            <li class="list__item">
+                <a href="#" class="item__text">About</a>
+            </li>
         </ul>
     </div>
-    <div class="navbar__action">
-        <ul class="action__list">
-            <li class="list__login">LOGIN</li>
-            <li class="list__sign-up">SIGN UP</li>
+    <div id="navbar__right" class="navbar__container">
+        <ul class="navbar__list">
+            <li class="list__item">
+                <a href="#" id="btn_login" class="item__text">Login</a>
+            </li>
+            <li class="list__item">
+                <a href="#" id="btn_sign-up" class="item__text btn">Sign Up</a>
+            </li>
         </ul>
     </div>
 </nav>
