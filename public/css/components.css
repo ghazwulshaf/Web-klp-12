@@ -1,0 +1,9 @@
+@import url('/css/root.style.css');
+
+.btn {
+    color: var(--light) !important;
+    background-color: var(--secondary);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
