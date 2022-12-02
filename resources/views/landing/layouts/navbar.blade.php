@@ -18,7 +18,7 @@
     <div id="navbar__right" class="navbar__container">
         <ul class="navbar__list">
             <li class="list__item">
-                <a href="#" id="btn_login" class="item__text">Login</a>
+                <a href="/login" id="btn_login" class="item__text">Login</a>
             </li>
             <li class="list__item">
                 <a href="#" id="btn_sign-up" class="item__text btn">Sign Up</a>
