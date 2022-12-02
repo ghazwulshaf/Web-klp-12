@@ -10,3 +10,8 @@
     border: none;
     border-radius: 5px;
 }
+
+.btn:hover {
+    font-weight: bold;
+    transition: .4s;
+}
