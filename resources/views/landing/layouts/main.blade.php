@@ -13,6 +13,9 @@
     {{-- Layouts CSS --}}
     <link rel="stylesheet" href="{{ asset('css/landing/layouts/navbar.style.css') }}">
 
+    {{-- Content CSS --}}
+    <link rel="stylesheet" href="{{ asset('css/landing/contents/'.$style.'.style.css') }}">
+
     {{-- Utilities CSS --}}
     <link rel="stylesheet" href="{{ asset('css/utilities.css') }}">
 
