@@ -1,0 +1,41 @@
+@import url('/css/root.style.css');
+
+.color-light {
+    color: var(--light);
+}
+
+.color-dark {
+    color: var(--dark);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+
+.color-darkgrey {
+    color: var(--dark-grey);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-darkgrey {
+    background-color: var(--dark-grey);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
