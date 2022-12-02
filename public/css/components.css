@@ -1,8 +1,10 @@
 @import url('/css/root.style.css');
 
 .btn {
+    display: inline-block;
     color: var(--light) !important;
     text-decoration: none;
+    text-align: center;
     background-color: var(--secondary);
     padding: 12px 24px;
     border: none;
