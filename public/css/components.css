@@ -12,6 +12,23 @@
 }
 
 .btn:hover {
+    cursor: pointer;
     font-weight: bold;
     transition: .4s;
+}
+
+.btn-text {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.btn-text:hover {
+    cursor: pointer;
+    color: var(--ternary);
+}
+
+.form__input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
