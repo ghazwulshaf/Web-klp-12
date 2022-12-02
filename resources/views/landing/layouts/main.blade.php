@@ -22,6 +22,8 @@
 <body>
     @include('landing.layouts.navbar')
 
-    @yield('content')
+    <main>
+        @yield('content')
+    </main>
 </body>
 </html>
