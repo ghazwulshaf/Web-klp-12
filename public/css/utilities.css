@@ -2,12 +2,12 @@
 
 /* COLOR */
 .text-light {color: var(--light) !important;}
-.text-dark {color: var(--dark) !important;}
-.text-grey {color: var(--grey) !important;}
-.text-darkgrey {color: var(--dark-grey) !important;}
-.text-primary {color: var(--primary) !important;}
+.text-dark  {color: var(--dark) !important;}
+.text-grey  {color: var(--grey) !important;}
+.text-darkgrey  {color: var(--dark-grey) !important;}
+.text-primary   {color: var(--primary) !important;}
 .text-secondary {color: var(--secondary) !important;}
-.text-ternary {color: var(--ternary) !important;}
+.text-ternary   {color: var(--ternary) !important;}
 .text-inherit	{color: inherit !important;}
 .text-current	{color: currentColor !important;}
 .text-transparent	{color: transparent !important;}
