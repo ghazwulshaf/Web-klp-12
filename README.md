@@ -2,7 +2,7 @@
 Use Laravel v9.X
 
 ## Project Preview
-![Preview](/public/assets/screenshots/home.navbar.png)
+![Preview](/public/assets/screenshots/landing/home.png)
 
 ## Project Prerequisites
 - Familiarity with the command line

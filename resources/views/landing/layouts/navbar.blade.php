@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div id="navbar__left" class="navbar__container">
         <a href="#">
-            <img src="{{ asset('assets/img/coding.png') }}" alt="coding's logo" width="60px">
+            <img src="{{ asset('assets/img/logo.png') }}" alt="coding's logo" width="60px">
         </a>
         <ul class="navbar__list">
             <li class="list__item">
