@@ -1,6 +1,9 @@
 # Website Kelompok 12
 Use Laravel v9.X
 
+## Project Preview
+![Preview](/public/assets/screenshots/home.navbar.png)
+
 ## Project Prerequisites
 - Familiarity with the command line
 - PHP version 8.0 or higher
