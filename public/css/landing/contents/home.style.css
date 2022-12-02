@@ -3,7 +3,7 @@
 }
 
 .content__text {
-    width: calc(100% - 500px);
+    width: calc(100% - 540px);
 }
 
 .content__title {
@@ -22,9 +22,9 @@
 
 .content__image {
     position: absolute;
-    top: 40px;
-    right: 40px;
-    width: 460px;
+    top: 0;
+    right: 0;
+    width: 500px;
 }
 
 .content__button {
