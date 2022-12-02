@@ -468,6 +468,15 @@
 .bg-rose-800	{background-color: rgb(159 18 57) !important;}
 .bg-rose-900	{background-color: rgb(136 19 55) !important;}
 
+/* HOVER BACKGROUND COLOR */
+.hover\:bg-light:hover {background-color: var(--light) !important;}
+.hover\:bg-dark:hover {background-color: var(--dark) !important;}
+.hover\:bg-grey:hover {background-color: var(--grey) !important;}
+.hover\:bg-darkgrey:hover {background-color: var(--dark-grey) !important;}
+.hover\:bg-primary:hover {background-color: var(--primary) !important;}
+.hover\:bg-secondary:hover {background-color: var(--secondary) !important;}
+.hover\:bg-ternary:hover {background-color: var(--ternary) !important;}
+
 /* DISPLAY */
 .d-block	{display: block !important;}
 .d-inline-block	{display: inline-block !important;}
