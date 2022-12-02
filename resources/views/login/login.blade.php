@@ -18,11 +18,17 @@
 
     {{-- Components CSS --}}
     <link rel="stylesheet" href="{{ asset('css/components.css') }}">
+
+    {{-- Fontawesome --}}
+    <script src="https://kit.fontawesome.com/53790a54cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="section">
         <section id="section__left" class="section"></section>
         <section id="section__right" class="section">
+            <div class="close">
+                <a href="/" class="close__icon"><i class="fa-solid fa-xmark"></i></a>
+            </div>
             <div class="content">
                 <div class="content__header">
                     <img src="{{ asset('assets/img/logo.png') }}" alt="Coding" width="60px">
