@@ -8,6 +8,9 @@
                 <a href="#" class="item__text active">Home</a>
             </li>
             <li class="list__item">
+                <a href="#" class="item__text">Tutorial</a>
+            </li>
+            <li class="list__item">
                 <a href="#" class="item__text">About</a>
             </li>
         </ul>
