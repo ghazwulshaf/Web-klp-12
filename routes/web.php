@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landing.contents.home');
+    return view('landing.contents.home', [
+        'title' => 'Home',
+        'style' => 'home',
+    ]);
 });
