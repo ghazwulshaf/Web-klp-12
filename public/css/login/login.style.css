@@ -20,10 +20,10 @@
     position: relative;
     color: var(--light);
     background-color: var(--secondary);
-    background-image: url(/assets/img/code-typing-animate.svg);
+    background-image: url(/assets/img/code-typing.svg);
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position: 100% 120%;
+    background-position: 90% 120%;
 }
 
 #section__left .content__logo {
@@ -101,16 +101,16 @@
 }
 
 #section__right .close__icon {
-    /* color: var(--dark); */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18pt;
     padding: 5px 10px;
     text-decoration: none;
-    color: var(--light);
-    background-color: var(--secondary);
-    border-radius: 5px;
+    color: var(--dark-grey);
+    background-color: transparent;
+    /* border: 1px solid var(--dark-grey); */
+    /* border-radius: 5px; */
 }
 
 #section__right h1, #section__right p {

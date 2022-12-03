@@ -26,9 +26,6 @@
     <div id="section">
         <section id="section__left" class="section">
             <div class="content">
-                <div class="content__logo">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="Coding" width="30px">
-                </div>
                 <div class="content__text">
                     <h1 class="content__label">Designed for Individuals</h1>
                     <p class="content__description">Learn the code and grow your skill, from anywhere</p>
