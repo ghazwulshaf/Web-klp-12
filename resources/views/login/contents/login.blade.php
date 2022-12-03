@@ -16,7 +16,7 @@
         </div>
         <div class="form-container">
             <button type="submit" class="form__submit btn text-light bg-secondary w-full">Login</button>
-            <span class="form__text">Don't have an account? <a href="#" class="text__sign-up btn-text">Sign up</a></span>
+            <span class="form__text">Don't have an account? <a href="/sign-up" class="text__sign-up btn-text">Sign up</a></span>
         </div>
     </form>
 @endsection

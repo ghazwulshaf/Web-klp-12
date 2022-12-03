@@ -25,3 +25,9 @@ Route::get('/login', function () {
         'title' => 'Login',
     ]);
 });
+
+Route::get('/sign-up', function () {
+    return view('login.contents.signup', [
+        'title' => 'Sign Up',
+    ]);
+});
