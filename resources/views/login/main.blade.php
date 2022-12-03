@@ -67,7 +67,7 @@
             <div class="close">
                 <a href="/" class="close__icon"><i class="fa-solid fa-xmark"></i></a>
             </div>
-            <div class="content">
+            <div id="{{ 'content_'.$content }}" class="content">
                 <div class="content__header">
                     <img src="{{ asset('assets/img/logo.png') }}" alt="Coding" width="60px">
                     <h1 class="header__title">{{ $title }}</h1>

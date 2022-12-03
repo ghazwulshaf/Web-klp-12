@@ -155,11 +155,18 @@
 }
 
 #section__right .content {
-    margin: 80px 140px auto 140px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 20px;
+}
+
+#section__right #content_login {
+    margin: 100px 140px auto 140px;
+}
+
+#section__right #content_sign-up {
+    margin: 80px 140px auto 140px;
 }
 
 #section__right .content__header {

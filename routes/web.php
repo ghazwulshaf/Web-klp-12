@@ -23,11 +23,13 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login.contents.login', [
         'title' => 'Login',
+        'content' => 'login',
     ]);
 });
 
 Route::get('/sign-up', function () {
     return view('login.contents.signup', [
         'title' => 'Sign Up',
+        'content' => 'sign-up',
     ]);
 });
