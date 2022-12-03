@@ -20,10 +20,6 @@
     position: relative;
     color: var(--light);
     background-color: var(--secondary);
-    /* background-image: url(/assets/img/code-typing.svg);
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: 90% 120%; */
 }
 
 #section__left h1, #section__left p {
@@ -34,19 +30,40 @@
 
 #section__left .content {
     display: none;
-    transition: .5s;
+    transition: display 5s;
 }
 
 #section__left #content_1.show {
     display: block;
+    animation-name: show;
+    animation-duration: 3s;
 }
 
 #section__left #content_2.show {
     display: block;
+    animation-name: show;
+    animation-duration: 3s;
 }
 
 #section__left #content_3.show {
     display: block;
+    animation-name: show;
+    animation-duration: 3s;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 #section__left .content__text {
@@ -97,13 +114,13 @@
 
 #section__left #content_2 .content__image {
     bottom: 20px;
-    width: 450px;
+    width: 400px;
 }
 
 #section__left #content_3 .content__image {
     right: 30px;
     bottom: 30px;
-    width: 450px;
+    width: 350px;
 }
 
 /* SECTION RIGHT */

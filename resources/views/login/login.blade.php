@@ -51,15 +51,15 @@
             </div>
             <div id="content_3" class="content">
                 <div class="content__text">
-                    <h1 class="content__label">Solve problem</h1>
-                    <p class="content__description">Solve your programming's problems with Coding's tutorials</p>
+                    <h1 class="content__label">Create your website</h1>
+                    <p class="content__description">Create your personal website with Coding tutorials</p>
                     <div class="content__pagination">
                         <span class="page__item"></span>
                         <span class="page__item"></span>
                         <span class="page__item active"></span>
                     </div>
                 </div>
-                <img class="content__image" src="{{ asset('assets/img/code-typing-rafiki_cropped.svg') }}">
+                <img class="content__image" src="{{ asset('assets/img/source-code-amico.svg') }}">
             </div>
         </section>
 
