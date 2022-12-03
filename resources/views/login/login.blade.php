@@ -35,7 +35,7 @@
                         <span class="page__item"></span>
                     </div>
                 </div>
-                {{-- <img class="content__image" src="{{ asset('assets/img/code-typing-animate.svg') }}"> --}}
+                <img class="content__image" src="{{ asset('assets/img/code-typing-pana.svg') }}">
             </div>
         </section>
 
