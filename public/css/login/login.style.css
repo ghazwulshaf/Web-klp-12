@@ -68,7 +68,7 @@
 
 #section__left .content__text {
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 80px;
     width: 360px;
     display: flex;
@@ -120,7 +120,7 @@
 #section__left #content_3 .content__image {
     right: 30px;
     bottom: 30px;
-    width: 450px;
+    width: 480px;
 }
 
 /* SECTION RIGHT */
@@ -155,7 +155,7 @@
 }
 
 #section__right .content {
-    margin: 100px 140px auto 140px;
+    margin: 80px 140px auto 140px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -197,6 +197,7 @@
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    font-size: 10pt;
 }
 
 #section__right .form__submit {
