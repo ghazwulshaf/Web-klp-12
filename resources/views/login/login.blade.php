@@ -22,7 +22,7 @@
     {{-- Fontawesome --}}
     <script src="https://kit.fontawesome.com/53790a54cf.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="slideContents()">
     <div id="section">
         <section id="section__left" class="section">
             <div id="content_1" class="content">
@@ -49,7 +49,7 @@
                 </div>
                 <img class="content__image" src="{{ asset('assets/img/open-source-amico.svg') }}">
             </div>
-            <div id="content_3" class="content show">
+            <div id="content_3" class="content">
                 <div class="content__text">
                     <h1 class="content__label">Solve problem</h1>
                     <p class="content__description">Solve your programming's problems with Coding's tutorials</p>
@@ -93,5 +93,8 @@
             </div>
         </section>
     </div>
+
+    {{-- import js --}}
+    <script src="{{ asset('js/login.script.js') }}"></script>
 </body>
 </html>
