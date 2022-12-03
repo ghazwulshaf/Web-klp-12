@@ -21,7 +21,7 @@
                 <a href="/login" id="btn_login" class="item__text btn text-dark bg-light border-dark">Login</a>
             </li>
             <li class="list__item">
-                <a href="#" id="btn_sign-up" class="item__text btn text-light bg-secondary hover:bg-ternary border-secondary">Sign Up</a>
+                <a href="/sign-up" id="btn_sign-up" class="item__text btn text-light bg-secondary hover:bg-ternary border-secondary">Sign Up</a>
             </li>
         </ul>
     </div>
