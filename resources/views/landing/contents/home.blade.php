@@ -9,7 +9,7 @@
                     <p class="content__description">Since 2022, Coding serve 20,000 tutorials with the world's largest web developer site</p>
                 </div>
                 <img class="content__image" src="{{ asset('assets/img/programming-animate.svg') }}">
-                <a href="#" class="content__button btn">Get Started</a>
+                <a href="#" class="content__button btn bg-secondary hover:bg-ternary">Get Started</a>
             </div>
         </div>
     </section>

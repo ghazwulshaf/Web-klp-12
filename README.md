@@ -2,7 +2,12 @@
 Use Laravel v9.X
 
 ## Project Preview
-![Preview](/public/assets/screenshots/landing/home.png)
+
+### Home Page
+![HomePage](/public/assets/screenshots/landing/home.png)
+
+### Login Page
+![LoginPage](/public/assets/screenshots/login/login.png)
 
 ## Project Prerequisites
 - Familiarity with the command line

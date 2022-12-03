@@ -1,0 +1,11 @@
+@import url(/css/root.style.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--light);
+    margin: 0;
+}

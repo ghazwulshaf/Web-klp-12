@@ -19,3 +19,9 @@ Route::get('/', function () {
         'style' => 'home',
     ]);
 });
+
+Route::get('/login', function () {
+    return view('login.login', [
+        'title' => 'Login',
+    ]);
+});
