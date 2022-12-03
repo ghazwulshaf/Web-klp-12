@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('/login', function () {
-    return view('login.login', [
+    return view('login.contents.login', [
         'title' => 'Login',
     ]);
 });
