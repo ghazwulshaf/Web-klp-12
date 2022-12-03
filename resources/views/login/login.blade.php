@@ -24,7 +24,24 @@
 </head>
 <body>
     <div id="section">
-        <section id="section__left" class="section"></section>
+        <section id="section__left" class="section">
+            <div class="content">
+                <div class="content__logo">
+                    <img src="{{ asset('assets/img/logo.png') }}" alt="Coding" width="30px">
+                </div>
+                <div class="content__text">
+                    <h1 class="content__label">Designed for Individuals</h1>
+                    <p class="content__description">Learn the code and grow your skill, from anywhere</p>
+                    <div class="content__pagination">
+                        <span class="page__item active"></span>
+                        <span class="page__item"></span>
+                        <span class="page__item"></span>
+                    </div>
+                </div>
+                {{-- <img class="content__image" src="{{ asset('assets/img/code-typing-animate.svg') }}"> --}}
+            </div>
+        </section>
+
         <section id="section__right" class="section">
             <div class="close">
                 <a href="/" class="close__icon"><i class="fa-solid fa-xmark"></i></a>
